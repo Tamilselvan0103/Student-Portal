@@ -19,7 +19,7 @@ const StudentProfile = ({ studentdata, setStudentdata }) => {
     <Base>
       <Box className="HomeBox">
         <Box>
-          <Typography variant="h2" component="h6">
+          <Typography variant="h3" component="h2">
             Profile of {student.name}
           </Typography>
         </Box>
@@ -47,14 +47,14 @@ const StudentProfile = ({ studentdata, setStudentdata }) => {
             </CardContent>
             <CardActions>
               <Box className="profileButton">
-              <Button
-                size="small"
-                color="primary"
-                variant="outlined"
-                onClick={() => history.push(`/edit-profile/${id}`)}
-              >
-                Edit
-              </Button>
+                <Button
+                  size="small"
+                  color="primary"
+                  variant="outlined"
+                  onClick={() => history.push(`/edit-profile/${id}`)}
+                >
+                  Edit
+                </Button>
               </Box>
             </CardActions>
           </Card>

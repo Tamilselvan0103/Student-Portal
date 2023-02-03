@@ -19,18 +19,15 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        
-        <Route exact path = "/">
-          <Home/>
+        <Route exact path="/">
+          <Home />
         </Route>
         <Route path="/users">
-          <Read setStudentdata={setStudentdata} 
-          studentdata={Studentdata} />
+          <Read setStudentdata={setStudentdata} studentdata={Studentdata} />
         </Route>
 
         <Route path="/create-user">
-          <Create setStudentdata={setStudentdata} 
-          studentdata={Studentdata} />
+          <Create setStudentdata={setStudentdata} studentdata={Studentdata} />
         </Route>
 
         <Route path="/edit-user/:id">
@@ -46,7 +43,7 @@ function App() {
           />
         </Route>
         <Route path="/edit-profile/:id">
-        <EditStudent
+          <EditStudent
             setStudentdata={setStudentdata}
             studentdata={Studentdata}
           />
