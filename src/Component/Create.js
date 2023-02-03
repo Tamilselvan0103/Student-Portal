@@ -34,7 +34,7 @@ export function Create({ setStudentdata, studentdata }) {
   }
   return (
     <Base>
-      <Box>
+      <Box className="Createstudentfield">
         <Box className="studenttitle">
           <Typography variant="h2" component="h6">
             Create a New Student
