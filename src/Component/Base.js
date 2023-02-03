@@ -122,7 +122,7 @@ export function Base({ children }) {
       </Box>
       {show ? (
         <Box className="titleheader">
-          <Button onClick={() => history.push("/users")}>Home</Button>
+          <Button onClick={() => history.push("/")}>Home</Button>
           <Button onClick={() => history.push("/create-user")}>
             Create a New Student
           </Button>
