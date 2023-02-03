@@ -48,7 +48,7 @@ export function EditStudent({ studentdata, setStudentdata }) {
 
   return (
     <Base>
-      <Box>
+      <Box className="Createstudentfield">
         <Box className="studenttitle">
           <Typography variant="h2" component="h6">
             Edit Student Details
